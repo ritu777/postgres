@@ -90,7 +90,7 @@ PostgreSQL uses the following types of SQL statements to manage and manipulate d
 - DDL (Data Definition Language): DDL statements are used to create, modify, and drop database objects such as tables, schemas, and databases.
 - DCL (Data Control Language): DCL statements are used to grant and revoke user privileges and permissions.
 - DML (Data Manipulation Language): DML statements are used to insert, update, delete, and select data.
-- 
+  
 #### Installation of postgresSQL on container
 
 To install PostgreSQL on a container using Podman, you can run the following command:
