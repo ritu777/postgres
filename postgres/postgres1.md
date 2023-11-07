@@ -37,16 +37,19 @@ Relational Database Management System. It is the software used to store, manage,
 Atomicity, Consistency, Isolation and Durability.
 
 **Atomicity-**  Each transaction is "all or nothing".
-Example- transferring money is successfully from one account to another account, or
-the entire transfer is cancelled if anything goes wrong along the way.
+
+Example- transferring money is successfully from one account to another account, or the entire transfer is cancelled if anything goes wrong along the way.
 
 **Consistency-** Data should be valid according to all defined rules.
+
 Example- Every user must have a unique email address, and this rule is always followed.
 
 **Isolation-** Transactions do not affect each other.
+
 Example- In a database, multiple users update their profiles at same time , but do not affect each other.
 
 **Durability-** Committed data would not be lost, even after power failure.
+
 Example: It is like a google document in our system. Even if our system crashes or is not working properly our document will be saved. And when we restart our system document is still there.
 
 ### Primary key and Foreign key
