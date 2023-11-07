@@ -5,7 +5,7 @@
 
 [Rdbms](#rdbms)
 
-[ACID PROPERTIES](#acid-properties)
+[Acid properties](#acid-properties)
 
 [Primary and foreign key](#primary-key-and-foreign-key)
 
