@@ -1,13 +1,22 @@
 # PostgreSQL
 [Introduction](#introduction)(/br)
+
 [Database](#database)(/br)
+
 [Rdbms](#rdbms)(/br)
+
 [ACID PROPERTIES](#acid-properties)(/br)
+
 [Primary and foreign key](#primary-key-and-foreign-key)(/br)
+
 [PostgreSQL crud operation](#postgresql-crud-operations)(/br)
+
 [Schema](#schema)(/br)
+
 [Data types](#data-types)(/br)
+
 [DDL, DCL, DML abbreviations](#ddl-dcl-and-dml)(/br)(/br)
+
 [Installation os postgresql](#installation-of-postgressql-on-container)(/br)
 
 
