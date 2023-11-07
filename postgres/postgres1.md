@@ -1,23 +1,23 @@
 # PostgreSQL
-[Introduction](#introduction)(/br)
+[Introduction](#introduction)
 
-[Database](#database)(/br)
+[Database](#database)
 
-[Rdbms](#rdbms)(/br)
+[Rdbms](#rdbms)
 
-[ACID PROPERTIES](#acid-properties)(/br)
+[ACID PROPERTIES](#acid-properties)
 
-[Primary and foreign key](#primary-key-and-foreign-key)(/br)
+[Primary and foreign key](#primary-key-and-foreign-key)
 
-[PostgreSQL crud operation](#postgresql-crud-operations)(/br)
+[PostgreSQL crud operation](#postgresql-crud-operations)
 
-[Schema](#schema)(/br)
+[Schema](#schema)
 
-[Data types](#data-types)(/br)
+[Data types](#data-types)
 
-[DDL, DCL, DML abbreviations](#ddl-dcl-and-dml)(/br)(/br)
+[DDL, DCL, DML abbreviations](#ddl-dcl-and-dml)
 
-[Installation os postgresql](#installation-of-postgressql-on-container)(/br)
+[Installation of postgresql](#installation-of-postgressql-on-container)
 
 
 ### INTRODUCTION
@@ -36,7 +36,7 @@ Relational Database Management System. It is the software used to store, manage,
 ### ACID PROPERTIES
 Atomicity, Consistency, Isolation and Durability.
 
-**Atomicity-** Each transaction is "all or nothing".
+**Atomicity-**  Each transaction is "all or nothing".
 Example- transferring money is successfully from one account to another account, or
 the entire transfer is cancelled if anything goes wrong along the way.
 
@@ -57,14 +57,16 @@ In simple words, a primary key is a unique identifier for each row in a table, w
 PostgreSQL supports the following CRUD operations:
 
 - **Create:** Inserts a new row into a table.
+  
 - **Read:** Retrieves data from a table.
 
 - **Update:** Modifies existing data in a table.
+  
 - **Delete:** Removes rows from a table.
 
 
 ### SCHEMA
-Schema is a collection of tables and whithout schema we can't define the data types in a table
+Schema is a collection of tables and whithout schema we can't define the data types in a table.
 
 
 
@@ -88,6 +90,7 @@ PostgreSQL uses the following types of SQL statements to manage and manipulate d
 - DDL (Data Definition Language): DDL statements are used to create, modify, and drop database objects such as tables, schemas, and databases.
 - DCL (Data Control Language): DCL statements are used to grant and revoke user privileges and permissions.
 - DML (Data Manipulation Language): DML statements are used to insert, update, delete, and select data.
+- 
 #### Installation of postgresSQL on container
 
 To install PostgreSQL on a container using Podman, you can run the following command:
@@ -101,9 +104,11 @@ Now you can create new database, schema, tables.
 By the following query:
 
 CREATE DATABASE ____;__
+
 ![Alt text](<Screenshot from 2023-11-07 08-51-42.png>)
 
 CREATE SCHEMA ____;
+
 ![Alt text](<Screenshot from 2023-11-07 12-09-14.png>)
 
 CREATE TABLE ___;
@@ -115,6 +120,7 @@ Now insert the value in created table.
 ![Alt text](input.png)
 
 Here you can read the data by following this query:
+
 ![Alt text](show.png)
 
 
